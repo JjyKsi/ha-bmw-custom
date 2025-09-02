@@ -22,6 +22,22 @@ _LOGGER = logging.getLogger(__name__)
 
 _LOGGER.warning("CUSTOM BMW ConnectedDrive loaded from custom_components")
 
+# Log which bimmer_connected package is actually loaded (path and version)
+try:
+    import bimmer_connected as _bc  # type: ignore[import-not-found]
+    try:
+        from importlib.metadata import version as _pkg_version  # type: ignore
+        _bc_version = _pkg_version("bimmer_connected")
+    except Exception:  # pragma: no cover - best-effort version lookup
+        _bc_version = getattr(_bc, "__version__", "unknown")
+    _LOGGER.warning(
+        "bimmer_connected loaded from: %s (version: %s)",
+        getattr(_bc, "__file__", "unknown"),
+        _bc_version,
+    )
+except Exception as _e:  # pragma: no cover
+    _LOGGER.error("Could not introspect bimmer_connected: %s", _e)
+
 
 SERVICE_SCHEMA = vol.Schema(
     vol.Any(
