@@ -56,6 +56,7 @@ USER_AGENTS = {
     Regions.REST_OF_WORLD: "Dart/3.3 (dart:io)",
     Regions.CHINA: "Dart/3.3 (dart:io)",
 }
+ANDROID_VERSION = "AP2A.250605.024"
 X_USER_AGENT = "android(AP2A.250605.024);{brand};{app_version};{region}"
 
 
