@@ -45,20 +45,18 @@ HCAPTCHA_SITE_KEYS = {
 
 APP_VERSIONS = {
     Regions.NORTH_AMERICA: "4.9.2(36892)",
-    Regions.REST_OF_WORLD: "1.0(1)",
+    Regions.REST_OF_WORLD: "4.9.2(36892)",
     Regions.CHINA: "4.9.2(36892)",
 }
 
 HTTPX_TIMEOUT = 30.0
 
 USER_AGENTS = {
-    Regions.NORTH_AMERICA: "okhttp/4.12.0",
-    Regions.REST_OF_WORLD: "okhttp/4.12.0",
-    Regions.CHINA: "okhttp/4.12.0",
+    Regions.NORTH_AMERICA: "Dart/3.3 (dart:io)",
+    Regions.REST_OF_WORLD: "Dart/3.3 (dart:io)",
+    Regions.CHINA: "Dart/3.3 (dart:io)",
 }
-# Android version used for x-user-agent construction for non-iOS clients
-ANDROID_VERSION = "13"
-X_USER_AGENT = "android({android_version});{brand};{app_version};{region}"
+X_USER_AGENT = "android(AP2A.250605.024);{brand};{app_version};{region}"
 
 
 AUTH_CHINA_PUBLIC_KEY_URL = "/eadrax-coas/v1/cop/publickey"

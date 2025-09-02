@@ -3,15 +3,42 @@
 from __future__ import annotations
 
 import logging
-import os
 import sys
-
-# Prefer vendored dependencies (if present) over system-installed ones
-_VENDOR_PATH = os.path.join(os.path.dirname(__file__), "_vendor")
-if os.path.isdir(_VENDOR_PATH) and _VENDOR_PATH not in sys.path:
-    sys.path.insert(0, _VENDOR_PATH)
+from pathlib import Path
 
 import voluptuous as vol
+
+# Logger must be available before vendoring
+_LOGGER = logging.getLogger(__name__)
+
+# Prefer vendored bimmer_connected over any installed package
+_VENDOR_DIR = Path(__file__).parent / "_vendor"
+if _VENDOR_DIR.exists():
+    vendor_path_str = str(_VENDOR_DIR)
+    if vendor_path_str not in sys.path:
+        sys.path.insert(0, vendor_path_str)
+    try:
+        import bimmer_connected as _bc  # type: ignore
+
+        _bc_file = getattr(_bc, "__file__", "unknown")
+        _bc_version = getattr(_bc, "__version__", "unknown")
+        try:
+            from bimmer_connected import vendor_info as _vi  # type: ignore
+
+            _bc_vendor = getattr(_vi, "VENDOR", "n/a")
+            _bc_commit = getattr(_vi, "COMMIT", "n/a")
+        except Exception:  # pragma: no cover
+            _bc_vendor = "n/a"
+            _bc_commit = "n/a"
+        _LOGGER.debug(
+            "Using vendored bimmer_connected: version=%s, file=%s, vendor=%s, commit=%s",
+            _bc_version,
+            _bc_file,
+            _bc_vendor,
+            _bc_commit,
+        )
+    except Exception as err:  # pragma: no cover
+        _LOGGER.exception("Failed to load vendored bimmer_connected: %s", err)
 
 from homeassistant.const import CONF_DEVICE_ID, CONF_ENTITY_ID, CONF_NAME, Platform
 from homeassistant.core import HomeAssistant, callback
@@ -24,26 +51,7 @@ from homeassistant.helpers import (
 
 from .const import ATTR_VIN, CONF_READ_ONLY, DOMAIN
 from .coordinator import BMWConfigEntry, BMWDataUpdateCoordinator
-
-_LOGGER = logging.getLogger(__name__)
-
-_LOGGER.warning("CUSTOM BMW ConnectedDrive loaded from custom_components")
-
-# Log which bimmer_connected package is actually loaded (path and version)
-try:
-    import bimmer_connected as _bc  # type: ignore[import-not-found]
-    try:
-        from importlib.metadata import version as _pkg_version  # type: ignore
-        _bc_version = _pkg_version("bimmer_connected")
-    except Exception:  # pragma: no cover - best-effort version lookup
-        _bc_version = getattr(_bc, "__version__", "unknown")
-    _LOGGER.warning(
-        "bimmer_connected loaded from: %s (version: %s)",
-        getattr(_bc, "__file__", "unknown"),
-        _bc_version,
-    )
-except Exception as _e:  # pragma: no cover
-    _LOGGER.error("Could not introspect bimmer_connected: %s", _e)
+ 
 
 
 SERVICE_SCHEMA = vol.Schema(

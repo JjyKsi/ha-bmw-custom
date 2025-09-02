@@ -45,11 +45,8 @@ def build_x_user_agent(brand: str, app_version: str, region: Regions) -> str:
 
 
 def build_client_version(brand: str, app_version: str, region: Regions) -> str:
-    """Build client-version param with region and optional widget suffix for ROW."""
-    base = f"android({ANDROID_VERSION});{brand};{app_version};{region.value}"
-    if region == Regions.REST_OF_WORLD:
-        return f"{base};widget"
-    return base
+    """Build client-version param with region (no widget suffix)."""
+    return f"android({ANDROID_VERSION});{brand};{app_version};{region.value}"
 
 
 def get_app_version(region: Regions) -> str:

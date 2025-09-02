@@ -12,7 +12,7 @@
     "bimmer_connected"
   ],
   "requirements": [
-    "bimmer_connected[china] @ git+https://github.com/JjyKsi/bimmer_connected_lib@master"
+    
   ],
-  "version": "10.10.27"
+  "version": "100.100.100"
 }

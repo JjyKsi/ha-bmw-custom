@@ -16,6 +16,7 @@ from homeassistant.components.number import (
 )
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import HomeAssistantError
+from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 
 from . import DOMAIN, BMWConfigEntry
 from .coordinator import BMWDataUpdateCoordinator
@@ -57,7 +58,7 @@ NUMBER_TYPES: list[BMWNumberEntityDescription] = [
 async def async_setup_entry(
     hass: HomeAssistant,
     config_entry: BMWConfigEntry,
-    async_add_entities,
+    async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
     """Set up the MyBMW number from config entry."""
     coordinator = config_entry.runtime_data

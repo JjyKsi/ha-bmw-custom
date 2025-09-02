@@ -11,7 +11,7 @@ import httpx
 from bimmer_connected.api.authentication import MyBMWAuthentication
 from bimmer_connected.api.regions import build_x_user_agent, get_app_version, get_server_url, get_user_agent
 from bimmer_connected.api.utils import anonymize_response, get_correlation_id, handle_httpstatuserror
-from bimmer_connected.const import HTTPX_TIMEOUT, X_USER_AGENT, CarBrands
+from bimmer_connected.const import HTTPX_TIMEOUT, CarBrands
 from bimmer_connected.models import AnonymizedResponse, GPSPosition
 
 _LOGGER = logging.getLogger(__name__)
