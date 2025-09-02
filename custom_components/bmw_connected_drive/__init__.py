@@ -3,6 +3,13 @@
 from __future__ import annotations
 
 import logging
+import os
+import sys
+
+# Prefer vendored dependencies (if present) over system-installed ones
+_VENDOR_PATH = os.path.join(os.path.dirname(__file__), "_vendor")
+if os.path.isdir(_VENDOR_PATH) and _VENDOR_PATH not in sys.path:
+    sys.path.insert(0, _VENDOR_PATH)
 
 import voluptuous as vol
 
