@@ -20,6 +20,8 @@ from .coordinator import BMWConfigEntry, BMWDataUpdateCoordinator
 
 _LOGGER = logging.getLogger(__name__)
 
+_LOGGER.warning("CUSTOM BMW ConnectedDrive loaded from custom_components")
+
 
 SERVICE_SCHEMA = vol.Schema(
     vol.Any(

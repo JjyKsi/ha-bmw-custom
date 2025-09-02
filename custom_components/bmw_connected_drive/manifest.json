@@ -14,5 +14,5 @@
   "requirements": [
     "bimmer_connected[china] @ git+https://github.com/JjyKsi/bimmer_connected_lib@master"
   ],
-  "version": "local-override-1"
+  "version": "10.10.10"
 }
