@@ -9,7 +9,6 @@ from bimmer_connected.vehicle import MyBMWVehicle
 
 from homeassistant.components.device_tracker import TrackerEntity
 from homeassistant.core import HomeAssistant
-from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 
 from . import BMWConfigEntry
 from .const import ATTR_DIRECTION
@@ -24,7 +23,7 @@ _LOGGER = logging.getLogger(__name__)
 async def async_setup_entry(
     hass: HomeAssistant,
     config_entry: BMWConfigEntry,
-    async_add_entities: AddConfigEntryEntitiesCallback,
+    async_add_entities,
 ) -> None:
     """Set up the MyBMW tracker from config entry."""
     coordinator = config_entry.runtime_data
