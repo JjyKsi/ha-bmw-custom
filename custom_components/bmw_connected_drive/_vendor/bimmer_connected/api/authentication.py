@@ -17,6 +17,7 @@ from Crypto.PublicKey import RSA
 
 from bimmer_connected.api.regions import (
     Regions,
+    build_client_version,
     build_x_user_agent,
     get_app_version,
     get_ocp_apim_key,
@@ -224,7 +225,7 @@ class MyBMWAuthentication(httpx.Auth):
                 authenticate_url,
                 params={
                     "interaction-id": uuid4(),
-                    "client-version": build_x_user_agent(
+                    "client-version": build_client_version(
                         brand="bmw", app_version=get_app_version(self.region), region=self.region
                     ),
                 },

@@ -45,7 +45,7 @@ HCAPTCHA_SITE_KEYS = {
 
 APP_VERSIONS = {
     Regions.NORTH_AMERICA: "4.9.2(36892)",
-    Regions.REST_OF_WORLD: "4.9.2(36892)",
+    Regions.REST_OF_WORLD: "1.0(1)",
     Regions.CHINA: "4.9.2(36892)",
 }
 

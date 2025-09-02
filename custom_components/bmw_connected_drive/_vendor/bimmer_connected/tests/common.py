@@ -168,7 +168,7 @@ class MyBMWMockRouter(respx.MockRouter):
     def vehicles_sideeffect(self, request: httpx.Request) -> httpx.Response:
         """Return /vehicles response based on x-user-agent."""
         x_user_agent = request.headers.get("x-user-agent", "").split(";")
-        if len(x_user_agent) >= 4:
+        if len(x_user_agent) >= 3:
             brand = x_user_agent[1]
         else:
             raise ValueError("x-user-agent not configured correctly!")
@@ -190,7 +190,7 @@ class MyBMWMockRouter(respx.MockRouter):
     def vehicle_profile_sideeffect(self, request: httpx.Request) -> httpx.Response:
         """Return /vehicle-data/profile response based on vin."""
         x_user_agent = request.headers.get("x-user-agent", "").split(";")
-        assert len(x_user_agent) >= 4
+        assert len(x_user_agent) >= 3
 
         try:
             return httpx.Response(200, json=self.profiles[request.headers["bmw-vin"]])
@@ -200,7 +200,7 @@ class MyBMWMockRouter(respx.MockRouter):
     def vehicle_state_sideeffect(self, request: httpx.Request) -> httpx.Response:
         """Return /vehicles response based on x-user-agent."""
         x_user_agent = request.headers.get("x-user-agent", "").split(";")
-        assert len(x_user_agent) >= 4
+        assert len(x_user_agent) >= 3
 
         try:
             return httpx.Response(200, json=self.states[request.headers["bmw-vin"]])
@@ -210,7 +210,7 @@ class MyBMWMockRouter(respx.MockRouter):
     def vehicle_charging_settings_sideeffect(self, request: httpx.Request) -> httpx.Response:
         """Return /vehicles response based on x-user-agent."""
         x_user_agent = request.headers.get("x-user-agent", "").split(";")
-        assert len(x_user_agent) >= 4
+        assert len(x_user_agent) >= 3
         assert "fields" in request.url.params
         assert "has_charging_settings_capabilities" in request.url.params
 

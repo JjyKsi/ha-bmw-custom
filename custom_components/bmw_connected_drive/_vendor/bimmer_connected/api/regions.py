@@ -40,7 +40,12 @@ def get_user_agent(region: Regions) -> str:
 
 
 def build_x_user_agent(brand: str, app_version: str, region: Regions) -> str:
-    """Build x-user-agent with Android version and optional widget suffix for ROW."""
+    """Build x-user-agent header in required 3-part format: os(version);brand;appVersion(build)."""
+    return f"android({ANDROID_VERSION});{brand};{app_version}"
+
+
+def build_client_version(brand: str, app_version: str, region: Regions) -> str:
+    """Build client-version param with region and optional widget suffix for ROW."""
     base = f"android({ANDROID_VERSION});{brand};{app_version};{region.value}"
     if region == Regions.REST_OF_WORLD:
         return f"{base};widget"
