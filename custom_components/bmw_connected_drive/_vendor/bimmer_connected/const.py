@@ -45,7 +45,7 @@ HCAPTCHA_SITE_KEYS = {
 
 APP_VERSIONS = {
     Regions.NORTH_AMERICA: "4.9.2(36892)",
-    Regions.REST_OF_WORLD: "4.9.2(36892)",
+    Regions.REST_OF_WORLD: "5.1.2(36892)",
     Regions.CHINA: "4.9.2(36892)",
 }
 
@@ -56,8 +56,8 @@ USER_AGENTS = {
     Regions.REST_OF_WORLD: "Dart/3.3 (dart:io)",
     Regions.CHINA: "Dart/3.3 (dart:io)",
 }
-ANDROID_VERSION = "AP2A.250605.024"
-X_USER_AGENT = "android(AP2A.250605.024);{brand};{app_version};{region}"
+ANDROID_VERSION = "AP2A.250606.024"
+X_USER_AGENT = "android(AP2A.250606.024);{brand};{app_version};{region}"
 
 
 AUTH_CHINA_PUBLIC_KEY_URL = "/eadrax-coas/v1/cop/publickey"
