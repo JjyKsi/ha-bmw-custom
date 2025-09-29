@@ -38,7 +38,12 @@ HCAPTCHA_SITE_KEYS = {
 
 APP_VERSIONS = {
     Regions.NORTH_AMERICA: "4.9.2(36892)",
+<<<<<<< HEAD:custom_components/bmw_connected_drive/_vendor/bimmer_connected/bimmer_connected/const.py
     Regions.REST_OF_WORLD: "4.9.2(36892)",
+=======
+    Regions.REST_OF_WORLD: "5.1.2(36892)",
+    Regions.CHINA: "4.9.2(36892)",
+>>>>>>> ad9de2149ca747cd3be50e690240d41bab347a19:custom_components/bmw_connected_drive/_vendor/bimmer_connected/const.py
 }
 
 HTTPX_TIMEOUT = 30.0
@@ -47,7 +52,12 @@ USER_AGENTS = {
     Regions.NORTH_AMERICA: "Dart/3.3 (dart:io)",
     Regions.REST_OF_WORLD: "Dart/3.3 (dart:io)",
 }
+<<<<<<< HEAD:custom_components/bmw_connected_drive/_vendor/bimmer_connected/bimmer_connected/const.py
 X_USER_AGENT = "android({build_string});{brand};{app_version};{region}"
+=======
+ANDROID_VERSION = "AP2A.250606.024"
+X_USER_AGENT = "android(AP2A.250606.024);{brand};{app_version};{region}"
+>>>>>>> ad9de2149ca747cd3be50e690240d41bab347a19:custom_components/bmw_connected_drive/_vendor/bimmer_connected/const.py
 
 
 VEHICLES_URL = "/eadrax-vcs/v4/vehicles"
