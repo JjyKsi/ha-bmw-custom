@@ -1,0 +1,2819 @@
+Found 2 vehicles: CONNECTED,CONNECTED
+VIN: WBY31AW090FP15359
+Mileage: 114282 km
+Vehicle data:
+[
+    {
+        "data": {
+            "attributes": {
+                "brand": "BMW",
+                "model": "CONNECTED",
+                "appVehicleType": "CONNECTED",
+                "driveTrain": "UNKNOWN"
+            },
+            "capabilities": {
+                "remoteServices": {
+                    "departureTimerControl": {
+                        "id": "departureTimerControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "inCarCamera": {
+                        "id": "inCarCamera",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "inCarCameraDwa": {
+                        "id": "inCarCameraDwa",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "remote360": {
+                        "id": "remote360",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "surroundViewRecorder": {
+                        "id": "surroundViewRecorder",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "windowControl": {
+                        "id": "windowControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "centralLockControl": {
+                        "id": "centralLockControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "batteryPreconditioningControl": {
+                        "id": "batteryPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorLock": {
+                        "id": "doorLock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorUnlock": {
+                        "id": "doorUnlock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "hornBlow": {
+                        "id": "hornBlow",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "lightFlash": {
+                        "id": "lightFlash",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "telematicsWakeup": {
+                        "id": "telematicsWakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "wakeup": {
+                        "id": "wakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "interiorPreconditioningControl": {
+                        "id": "interiorPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    }
+                },
+                "a4aType": "NOT_SUPPORTED",
+                "climateNow": true,
+                "isClimateTimerWeeklyActive": false,
+                "climateFunction": "AIR_CONDITIONING",
+                "horn": true,
+                "isBmwChargingSupported": true,
+                "isCarSharingSupported": false,
+                "isChargeNowForBusinessSupported": false,
+                "isChargingHistorySupported": true,
+                "isLocationBasedChargingSettingsSupported": false,
+                "isChargingHospitalityEnabled": true,
+                "isChargingLoudnessEnabled": true,
+                "isChargingPlanSupported": true,
+                "isChargingPowerLimitEnabled": true,
+                "isChargingSettingsEnabled": true,
+                "isBatteryPreconditioningSupported": true,
+                "isChargingTargetSocEnabled": true,
+                "isCustomerEsimSupported": false,
+                "isDataPrivacyEnabled": false,
+                "isDCSContractManagementSupported": true,
+                "isEasyChargeEnabled": false,
+                "isMiniChargingSupported": false,
+                "isEvGoChargingSupported": false,
+                "isRemoteHistoryDeletionSupported": false,
+                "isRemoteEngineStartSupported": false,
+                "isRemoteServicesActivationRequired": false,
+                "isRemoteServicesBookingRequired": false,
+                "isScanAndChargeSupported": false,
+                "lastStateCallState": "ACTIVATED",
+                "lights": true,
+                "lock": true,
+                "remoteSoftwareUpgrade": true,
+                "sendPoi": true,
+                "unlock": true,
+                "vehicleFinder": true,
+                "vehicleStateSource": "LAST_STATE_CALL",
+                "isRemoteHistorySupported": true,
+                "isWifiHotspotServiceSupported": false,
+                "isNonLscFeatureEnabled": false,
+                "isSustainabilitySupported": true,
+                "isSustainabilityAccumulatedViewEnabled": true,
+                "specialThemeSupport": [],
+                "isRemoteParkingSupported": false,
+                "isRemoteParkingEes25Active": false,
+                "remoteChargingCommands": {
+                    "chargingControl": [
+                        "START",
+                        "STOP"
+                    ],
+                    "plugControl": [
+                        "UNLOCK_PLUG"
+                    ],
+                    "flapControl": [
+                        "COUPLE_FLAP",
+                        "DECOUPLE_FLAP"
+                    ]
+                },
+                "digitalKey": {
+                    "state": "ACTIVATED",
+                    "bookedServicePackage": "SMACC_1_5",
+                    "readerGraphics": "000200000000",
+                    "vehicleSoftwareUpgradeRequired": false,
+                    "isDigitalKeyFirstSupported": false
+                },
+                "isPersonalPictureUploadSupported": false,
+                "personalPictureUpload": {
+                    "state": "NOT_AVAILABLE",
+                    "aspectRatio": "2:1"
+                },
+                "isPlugAndChargeSupported": false,
+                "isOptimizedChargingSupported": false,
+                "alarmSystem": false,
+                "isThirdPartyAppStoreSupported": false,
+                "thirdPartyAppStore": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "thirdPartyAppStoreCn": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "locationBasedCommerceFeatures": {
+                    "parking": true,
+                    "fueling": false,
+                    "reservations": false
+                },
+                "isLearningNavigationSupported": true
+            },
+            "state": {
+                "isLeftSteering": true,
+                "lastFetched": "2025-09-29T09:42:52.124Z",
+                "lastUpdatedAt": "2025-09-29T07:07:37Z",
+                "isLscSupported": true,
+                "range": 309,
+                "doorsState": {
+                    "combinedSecurityState": "SECURED",
+                    "leftFront": "CLOSED",
+                    "leftRear": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "rightRear": "CLOSED",
+                    "combinedState": "CLOSED",
+                    "hood": "CLOSED",
+                    "trunk": "CLOSED"
+                },
+                "windowsState": {
+                    "leftFront": "CLOSED",
+                    "leftRear": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "rightRear": "CLOSED",
+                    "combinedState": "CLOSED"
+                },
+                "roofState": {
+                    "roofState": "CLOSED",
+                    "roofStateType": "SUN_ROOF"
+                },
+                "tireState": {
+                    "frontLeft": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 240,
+                            "targetPressure": 240
+                        }
+                    },
+                    "frontRight": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 220,
+                            "targetPressure": 240
+                        }
+                    },
+                    "rearLeft": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 260,
+                            "targetPressure": 270
+                        }
+                    },
+                    "rearRight": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 250,
+                            "targetPressure": 270
+                        }
+                    }
+                },
+                "location": {
+                    "coordinates": {
+                        "latitude": 60.28076,
+                        "longitude": 24.751428611111113
+                    },
+                    "address": {
+                        "formatted": "Purolehto 15, 02920 Espoo"
+                    },
+                    "heading": 274
+                },
+                "currentMileage": 114282,
+                "climateControlState": {
+                    "activity": "INACTIVE"
+                },
+                "climateTimers": [
+                    {
+                        "isWeeklyTimer": false,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "departurePlan": {},
+                "requiredServices": [],
+                "checkControlMessages": [
+                    {
+                        "id": 1,
+                        "type": "CONDUCTIVE_CHARGING",
+                        "severity": "HIGH",
+                        "description": "Check power supply and plug in again.",
+                        "name": "Charging interrupted",
+                        "timestamp": "2025-09-28T18:32:08.02Z"
+                    },
+                    {
+                        "type": "TIRE_PRESSURE",
+                        "severity": "LOW"
+                    }
+                ],
+                "chargingProfile": {
+                    "chargingControlType": "WEEKLY_PLANNER",
+                    "reductionOfChargeCurrent": {
+                        "start": {
+                            "hour": 23,
+                            "minute": 5
+                        },
+                        "end": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    "chargingMode": "IMMEDIATE_CHARGING",
+                    "chargingPreference": "NO_PRESELECTION",
+                    "departureTimes": [
+                        {
+                            "id": 1,
+                            "timeStamp": {
+                                "hour": 7,
+                                "minute": 25
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY",
+                                "TUESDAY",
+                                "WEDNESDAY",
+                                "THURSDAY",
+                                "FRIDAY"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "timeStamp": {
+                                "hour": 0,
+                                "minute": 0
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": []
+                        },
+                        {
+                            "id": 3,
+                            "timeStamp": {
+                                "hour": 0,
+                                "minute": 0
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": []
+                        },
+                        {
+                            "id": 4,
+                            "timeStamp": {
+                                "hour": 7,
+                                "minute": 0
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": []
+                        }
+                    ],
+                    "climatisationOn": false,
+                    "chargingSettings": {
+                        "targetSoc": 85,
+                        "acCurrentLimit": 12,
+                        "idcc": "UNLIMITED_LOUD",
+                        "hospitality": "HOSP_INACTIVE",
+                        "isAcCurrentLimitActive": true
+                    }
+                },
+                "electricChargingState": {
+                    "chargingLevelPercent": 81,
+                    "range": 309,
+                    "isChargerConnected": true,
+                    "chargingStatus": "ERROR",
+                    "chargingTarget": 85,
+                    "battery": {
+                        "batteryPreconditionState": "NOT_AVAILABLE",
+                        "batteryPreconditionErrorState": "PLUGGED_IN"
+                    }
+                },
+                "combustionFuelLevel": {
+                    "range": 309
+                },
+                "driverPreferences": {
+                    "lscPrivacyMode": "OFF"
+                },
+                "isDeepSleepModeActive": false,
+                "securityOverviewMode": "ARMED",
+                "vehicleSoftwareVersion": {
+                    "puStep": {
+                        "month": 7,
+                        "year": 24
+                    },
+                    "iStep": {
+                        "seriesCluster": "S18A",
+                        "year": 24,
+                        "month": 7,
+                        "iStep": 530
+                    }
+                },
+                "pwf": "PARKING_BN_OK",
+                "loggedInProfile": {
+                    "driverFront": {
+                        "gcid": "667898b1-6ee6-49dc-beab-8b1f2fa0a659"
+                    },
+                    "passengerFront": {}
+                },
+                "isRemoteEngineStartDisclaimer": false
+            },
+            "charging_settings": {},
+            "vin": "WBY31AW090FP15359",
+            "fetched_at": "2025-09-29T09:42:51+00:00",
+            "features": [
+                {
+                    "id": "DIGITAL_KEY",
+                    "isSupported": true,
+                    "isActive": true,
+                    "subFeatures": []
+                },
+                {
+                    "id": "TRAFFIC_INFORMATION",
+                    "isSupported": true,
+                    "isActive": true
+                },
+                {
+                    "id": "WEBSOCKET_CONNECTION",
+                    "isSupported": false
+                },
+                {
+                    "id": "NACS_CHARGING_CONNECTOR",
+                    "isSupported": false
+                },
+                {
+                    "id": "ALARM_SYSTEM",
+                    "isSupported": false,
+                    "subFeatures": [
+                        {
+                            "id": "ALARM_SYSTEM_PARTIAL_ARMING_ON_LSC",
+                            "isSupported": false
+                        }
+                    ]
+                },
+                {
+                    "id": "INTERIOR_PRECONDITIONING",
+                    "isSupported": false,
+                    "isActive": false,
+                    "subFeatures": []
+                }
+            ]
+        },
+        "fuel_and_battery": {
+            "remaining_range_fuel": [
+                null,
+                null
+            ],
+            "remaining_range_electric": [
+                null,
+                null
+            ],
+            "remaining_range_total": [
+                null,
+                null
+            ],
+            "remaining_fuel": [
+                null,
+                null
+            ],
+            "remaining_fuel_percent": null,
+            "remaining_battery_percent": null,
+            "charging_status": null,
+            "charging_start_time": null,
+            "charging_end_time": null,
+            "is_charger_connected": false,
+            "charging_target": null
+        },
+        "vehicle_location": {
+            "location": {
+                "latitude": 60.28076,
+                "longitude": 24.751428611111113
+            },
+            "heading": 274,
+            "vehicle_update_timestamp": "2025-09-29T09:42:52+00:00",
+            "account_region": "row",
+            "remote_service_position": null
+        },
+        "doors_and_windows": {
+            "door_lock_state": "SECURED",
+            "lids": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "leftRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "hood",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "trunk",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "sunRoof",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "windows": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "leftRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "all_lids_closed": true,
+            "all_windows_closed": true,
+            "open_lids": [],
+            "open_windows": []
+        },
+        "condition_based_services": {
+            "messages": [],
+            "is_service_required": false,
+            "next_service_by_distance": null,
+            "next_service_by_time": null
+        },
+        "headunit": {
+            "idrive_version": "",
+            "headunit_type": "",
+            "software_version": ""
+        },
+        "check_control_messages": {
+            "messages": [
+                {
+                    "description_short": "CONDUCTIVE_CHARGING",
+                    "description_long": null,
+                    "state": "HIGH"
+                },
+                {
+                    "description_short": "TIRE_PRESSURE",
+                    "description_long": null,
+                    "state": "LOW"
+                }
+            ],
+            "has_check_control_messages": true,
+            "urgent_check_control_messages": "CONDUCTIVE_CHARGING"
+        },
+        "climate": {
+            "activity": "INACTIVE",
+            "activity_end_time": null,
+            "is_climate_on": false
+        },
+        "charging_profile": {
+            "is_pre_entry_climatization_enabled": false,
+            "timer_type": "WEEKLY_PLANNER",
+            "departure_times": [
+                {
+                    "_timer_dict": {
+                        "id": 1,
+                        "timeStamp": {
+                            "hour": 7,
+                            "minute": 25
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY"
+                        ]
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "07:25:00",
+                    "timer_id": 1,
+                    "weekdays": [
+                        "MONDAY",
+                        "TUESDAY",
+                        "WEDNESDAY",
+                        "THURSDAY",
+                        "FRIDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 2,
+                        "timeStamp": {
+                            "hour": 0,
+                            "minute": 0
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": []
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "00:00:00",
+                    "timer_id": 2,
+                    "weekdays": []
+                },
+                {
+                    "_timer_dict": {
+                        "id": 3,
+                        "timeStamp": {
+                            "hour": 0,
+                            "minute": 0
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": []
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "00:00:00",
+                    "timer_id": 3,
+                    "weekdays": []
+                },
+                {
+                    "_timer_dict": {
+                        "id": 4,
+                        "timeStamp": {
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": []
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "07:00:00",
+                    "timer_id": 4,
+                    "weekdays": []
+                }
+            ],
+            "preferred_charging_window": {
+                "_window_dict": {
+                    "start": {
+                        "hour": 23,
+                        "minute": 5
+                    },
+                    "end": {
+                        "hour": 7,
+                        "minute": 0
+                    }
+                },
+                "end_time": "07:00:00",
+                "start_time": "23:05:00"
+            },
+            "charging_preferences": "NO_PRESELECTION",
+            "charging_mode": "IMMEDIATE_CHARGING",
+            "ac_current_limit": 12,
+            "ac_available_limits": null,
+            "charging_preferences_service_pack": null
+        },
+        "tires": {
+            "front_left": {
+                "current_pressure": 240,
+                "target_pressure": 240,
+                "season": null,
+                "manufacturing_week": null
+            },
+            "front_right": {
+                "current_pressure": 220,
+                "target_pressure": 240,
+                "season": null,
+                "manufacturing_week": null
+            },
+            "rear_left": {
+                "current_pressure": 260,
+                "target_pressure": 270,
+                "season": null,
+                "manufacturing_week": null
+            },
+            "rear_right": {
+                "current_pressure": 250,
+                "target_pressure": 270,
+                "season": null,
+                "manufacturing_week": null
+            }
+        },
+        "available_attributes": [
+            "gps_position",
+            "vin",
+            "remaining_range_total",
+            "mileage",
+            "condition_based_services",
+            "check_control_messages",
+            "door_lock_state",
+            "timestamp",
+            "lids",
+            "windows"
+        ],
+        "brand": "bmw",
+        "drive_train": "UNKNOWN",
+        "drive_train_attributes": [
+            "remaining_range_total",
+            "mileage"
+        ],
+        "has_combustion_drivetrain": false,
+        "has_electric_drivetrain": false,
+        "is_charging_plan_supported": true,
+        "is_charging_settings_supported": true,
+        "is_lsc_enabled": true,
+        "is_remote_charge_start_enabled": true,
+        "is_remote_charge_stop_enabled": true,
+        "is_remote_climate_start_enabled": true,
+        "is_remote_climate_stop_enabled": true,
+        "is_remote_horn_enabled": true,
+        "is_remote_lights_enabled": true,
+        "is_remote_lock_enabled": true,
+        "is_remote_sendpoi_enabled": true,
+        "is_remote_set_ac_limit_enabled": true,
+        "is_remote_set_target_soc_enabled": true,
+        "is_remote_unlock_enabled": true,
+        "is_vehicle_active": false,
+        "is_vehicle_tracking_enabled": true,
+        "lsc_type": "ACTIVATED",
+        "mileage": [
+            114282,
+            "km"
+        ],
+        "name": "CONNECTED",
+        "timestamp": "2025-09-29T09:42:52+00:00",
+        "vin": "WBY31AW090FP15359"
+    },
+    {
+        "data": {
+            "attributes": {
+                "brand": "BMW",
+                "model": "CONNECTED",
+                "appVehicleType": "CONNECTED",
+                "driveTrain": "UNKNOWN"
+            },
+            "capabilities": {
+                "remoteServices": {
+                    "departureTimerControl": {
+                        "id": "departureTimerControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "inCarCamera": {
+                        "id": "inCarCamera",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "inCarCameraDwa": {
+                        "id": "inCarCameraDwa",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "remote360": {
+                        "id": "remote360",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "surroundViewRecorder": {
+                        "id": "surroundViewRecorder",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "windowControl": {
+                        "id": "windowControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "centralLockControl": {
+                        "id": "centralLockControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "batteryPreconditioningControl": {
+                        "id": "batteryPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorLock": {
+                        "id": "doorLock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorUnlock": {
+                        "id": "doorUnlock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "hornBlow": {
+                        "id": "hornBlow",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "lightFlash": {
+                        "id": "lightFlash",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "telematicsWakeup": {
+                        "id": "telematicsWakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "wakeup": {
+                        "id": "wakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "interiorPreconditioningControl": {
+                        "id": "interiorPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    }
+                },
+                "a4aType": "USB_ONLY",
+                "climateNow": true,
+                "isClimateTimerWeeklyActive": false,
+                "climateFunction": "AIR_CONDITIONING",
+                "horn": true,
+                "isBmwChargingSupported": true,
+                "isCarSharingSupported": false,
+                "isChargeNowForBusinessSupported": false,
+                "isChargingHistorySupported": true,
+                "isLocationBasedChargingSettingsSupported": false,
+                "isChargingHospitalityEnabled": false,
+                "isChargingLoudnessEnabled": false,
+                "isChargingPlanSupported": true,
+                "isChargingPowerLimitEnabled": false,
+                "isChargingSettingsEnabled": false,
+                "isBatteryPreconditioningSupported": false,
+                "isChargingTargetSocEnabled": false,
+                "isCustomerEsimSupported": false,
+                "isDataPrivacyEnabled": false,
+                "isDCSContractManagementSupported": true,
+                "isEasyChargeEnabled": false,
+                "isMiniChargingSupported": false,
+                "isEvGoChargingSupported": false,
+                "isRemoteHistoryDeletionSupported": false,
+                "isRemoteEngineStartSupported": false,
+                "isRemoteServicesActivationRequired": false,
+                "isRemoteServicesBookingRequired": false,
+                "isScanAndChargeSupported": false,
+                "lastStateCallState": "ACTIVATED",
+                "lights": true,
+                "lock": true,
+                "sendPoi": true,
+                "unlock": true,
+                "vehicleFinder": true,
+                "vehicleStateSource": "LAST_STATE_CALL",
+                "isRemoteHistorySupported": true,
+                "isWifiHotspotServiceSupported": false,
+                "isNonLscFeatureEnabled": false,
+                "isSustainabilitySupported": false,
+                "isSustainabilityAccumulatedViewEnabled": false,
+                "specialThemeSupport": [],
+                "isRemoteParkingSupported": false,
+                "isRemoteParkingEes25Active": false,
+                "remoteChargingCommands": {},
+                "digitalKey": {
+                    "state": "NOT_AVAILABLE",
+                    "bookedServicePackage": "NONE",
+                    "vehicleSoftwareUpgradeRequired": false,
+                    "isDigitalKeyFirstSupported": false
+                },
+                "isPersonalPictureUploadSupported": false,
+                "personalPictureUpload": {
+                    "state": "NOT_AVAILABLE",
+                    "aspectRatio": "1:1"
+                },
+                "isPlugAndChargeSupported": false,
+                "isOptimizedChargingSupported": false,
+                "alarmSystem": false,
+                "isThirdPartyAppStoreSupported": false,
+                "thirdPartyAppStore": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "thirdPartyAppStoreCn": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "locationBasedCommerceFeatures": {
+                    "parking": false,
+                    "fueling": false,
+                    "reservations": false
+                },
+                "isLearningNavigationSupported": false
+            },
+            "state": {
+                "isLeftSteering": true,
+                "lastFetched": "2025-09-29T09:42:52.772Z",
+                "lastUpdatedAt": "2025-09-29T05:24:27Z",
+                "isLscSupported": true,
+                "range": 101,
+                "doorsState": {
+                    "combinedSecurityState": "SECURED",
+                    "leftFront": "CLOSED",
+                    "leftRear": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "rightRear": "CLOSED",
+                    "combinedState": "CLOSED",
+                    "hood": "CLOSED",
+                    "trunk": "CLOSED"
+                },
+                "windowsState": {
+                    "leftFront": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "combinedState": "CLOSED"
+                },
+                "roofState": {
+                    "roofState": "CLOSED",
+                    "roofStateType": "SUN_ROOF"
+                },
+                "location": {
+                    "coordinates": {
+                        "latitude": 60.22173138888889,
+                        "longitude": 24.68443
+                    },
+                    "address": {
+                        "formatted": "Karvasm\u00e4entie 4, 02740 Espoo"
+                    },
+                    "heading": 104
+                },
+                "currentMileage": 82283,
+                "climateTimers": [
+                    {
+                        "isWeeklyTimer": false,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "departurePlan": {},
+                "requiredServices": [],
+                "checkControlMessages": [],
+                "chargingProfile": {
+                    "chargingControlType": "WEEKLY_PLANNER",
+                    "reductionOfChargeCurrent": {
+                        "start": {
+                            "hour": 4,
+                            "minute": 0
+                        },
+                        "end": {
+                            "hour": 12,
+                            "minute": 0
+                        }
+                    },
+                    "chargingMode": "IMMEDIATE_CHARGING",
+                    "chargingPreference": "CHARGING_WINDOW",
+                    "departureTimes": [
+                        {
+                            "id": 1,
+                            "timeStamp": {
+                                "hour": 21,
+                                "minute": 30
+                            },
+                            "action": "ACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY",
+                                "TUESDAY",
+                                "WEDNESDAY",
+                                "THURSDAY",
+                                "FRIDAY",
+                                "SATURDAY",
+                                "SUNDAY"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "timeStamp": {
+                                "hour": 8,
+                                "minute": 35
+                            },
+                            "action": "ACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY",
+                                "TUESDAY",
+                                "WEDNESDAY",
+                                "THURSDAY",
+                                "FRIDAY"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "timeStamp": {
+                                "hour": 9,
+                                "minute": 45
+                            },
+                            "action": "ACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "timeStamp": {
+                                "hour": 8,
+                                "minute": 35
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY"
+                            ]
+                        }
+                    ],
+                    "climatisationOn": false,
+                    "chargingSettings": {
+                        "targetSoc": 100,
+                        "idcc": "NO_ACTION",
+                        "hospitality": "NO_ACTION"
+                    }
+                },
+                "electricChargingState": {
+                    "chargingLevelPercent": 86,
+                    "range": 101,
+                    "isChargerConnected": false,
+                    "chargingStatus": "INVALID",
+                    "chargingTarget": 100
+                },
+                "combustionFuelLevel": {},
+                "driverPreferences": {
+                    "lscPrivacyMode": "OFF"
+                },
+                "securityOverviewMode": null,
+                "vehicleSoftwareVersion": {
+                    "puStep": {
+                        "month": 3,
+                        "year": 21
+                    },
+                    "iStep": {
+                        "seriesCluster": "I001",
+                        "year": 21,
+                        "month": 3,
+                        "iStep": 530
+                    }
+                },
+                "loggedInProfile": {
+                    "driverFront": {},
+                    "passengerFront": {}
+                }
+            },
+            "charging_settings": {},
+            "vin": "WBY1Z21020V791850",
+            "fetched_at": "2025-09-29T09:42:52+00:00",
+            "features": [
+                {
+                    "id": "DIGITAL_KEY",
+                    "isSupported": false,
+                    "isActive": false,
+                    "subFeatures": []
+                },
+                {
+                    "id": "TRAFFIC_INFORMATION",
+                    "isSupported": false
+                },
+                {
+                    "id": "WEBSOCKET_CONNECTION",
+                    "isSupported": false
+                },
+                {
+                    "id": "NACS_CHARGING_CONNECTOR",
+                    "isSupported": false
+                },
+                {
+                    "id": "ALARM_SYSTEM",
+                    "isSupported": false,
+                    "subFeatures": [
+                        {
+                            "id": "ALARM_SYSTEM_PARTIAL_ARMING_ON_LSC",
+                            "isSupported": false
+                        }
+                    ]
+                },
+                {
+                    "id": "INTERIOR_PRECONDITIONING",
+                    "isSupported": false,
+                    "isActive": false,
+                    "subFeatures": []
+                }
+            ]
+        },
+        "fuel_and_battery": {
+            "remaining_range_fuel": [
+                null,
+                null
+            ],
+            "remaining_range_electric": [
+                null,
+                null
+            ],
+            "remaining_range_total": [
+                null,
+                null
+            ],
+            "remaining_fuel": [
+                null,
+                null
+            ],
+            "remaining_fuel_percent": null,
+            "remaining_battery_percent": null,
+            "charging_status": null,
+            "charging_start_time": null,
+            "charging_end_time": null,
+            "is_charger_connected": false,
+            "charging_target": null
+        },
+        "vehicle_location": {
+            "location": {
+                "latitude": 60.22173138888889,
+                "longitude": 24.68443
+            },
+            "heading": 104,
+            "vehicle_update_timestamp": "2025-09-29T09:42:52+00:00",
+            "account_region": "row",
+            "remote_service_position": null
+        },
+        "doors_and_windows": {
+            "door_lock_state": "SECURED",
+            "lids": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "leftRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "hood",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "trunk",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "sunRoof",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "windows": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "all_lids_closed": true,
+            "all_windows_closed": true,
+            "open_lids": [],
+            "open_windows": []
+        },
+        "condition_based_services": {
+            "messages": [],
+            "is_service_required": false,
+            "next_service_by_distance": null,
+            "next_service_by_time": null
+        },
+        "headunit": {
+            "idrive_version": "",
+            "headunit_type": "",
+            "software_version": ""
+        },
+        "check_control_messages": {
+            "messages": [],
+            "has_check_control_messages": false,
+            "urgent_check_control_messages": null
+        },
+        "climate": {
+            "activity": "UNKNOWN",
+            "activity_end_time": null,
+            "is_climate_on": false
+        },
+        "charging_profile": {
+            "is_pre_entry_climatization_enabled": false,
+            "timer_type": "WEEKLY_PLANNER",
+            "departure_times": [
+                {
+                    "_timer_dict": {
+                        "id": 1,
+                        "timeStamp": {
+                            "hour": 21,
+                            "minute": 30
+                        },
+                        "action": "ACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ]
+                    },
+                    "action": "ACTIVATE",
+                    "start_time": "21:30:00",
+                    "timer_id": 1,
+                    "weekdays": [
+                        "MONDAY",
+                        "TUESDAY",
+                        "WEDNESDAY",
+                        "THURSDAY",
+                        "FRIDAY",
+                        "SATURDAY",
+                        "SUNDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 2,
+                        "timeStamp": {
+                            "hour": 8,
+                            "minute": 35
+                        },
+                        "action": "ACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY"
+                        ]
+                    },
+                    "action": "ACTIVATE",
+                    "start_time": "08:35:00",
+                    "timer_id": 2,
+                    "weekdays": [
+                        "MONDAY",
+                        "TUESDAY",
+                        "WEDNESDAY",
+                        "THURSDAY",
+                        "FRIDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 3,
+                        "timeStamp": {
+                            "hour": 9,
+                            "minute": 45
+                        },
+                        "action": "ACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ]
+                    },
+                    "action": "ACTIVATE",
+                    "start_time": "09:45:00",
+                    "timer_id": 3,
+                    "weekdays": [
+                        "MONDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 4,
+                        "timeStamp": {
+                            "hour": 8,
+                            "minute": 35
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ]
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "08:35:00",
+                    "timer_id": 4,
+                    "weekdays": [
+                        "MONDAY"
+                    ]
+                }
+            ],
+            "preferred_charging_window": {
+                "_window_dict": {
+                    "start": {
+                        "hour": 4,
+                        "minute": 0
+                    },
+                    "end": {
+                        "hour": 12,
+                        "minute": 0
+                    }
+                },
+                "end_time": "12:00:00",
+                "start_time": "04:00:00"
+            },
+            "charging_preferences": "CHARGING_WINDOW",
+            "charging_mode": "IMMEDIATE_CHARGING",
+            "ac_current_limit": null,
+            "ac_available_limits": null,
+            "charging_preferences_service_pack": null
+        },
+        "tires": null,
+        "available_attributes": [
+            "gps_position",
+            "vin",
+            "remaining_range_total",
+            "mileage",
+            "condition_based_services",
+            "check_control_messages",
+            "door_lock_state",
+            "timestamp",
+            "lids",
+            "windows"
+        ],
+        "brand": "bmw",
+        "drive_train": "UNKNOWN",
+        "drive_train_attributes": [
+            "remaining_range_total",
+            "mileage"
+        ],
+        "has_combustion_drivetrain": false,
+        "has_electric_drivetrain": false,
+        "is_charging_plan_supported": true,
+        "is_charging_settings_supported": false,
+        "is_lsc_enabled": true,
+        "is_remote_charge_start_enabled": false,
+        "is_remote_charge_stop_enabled": false,
+        "is_remote_climate_start_enabled": true,
+        "is_remote_climate_stop_enabled": false,
+        "is_remote_horn_enabled": true,
+        "is_remote_lights_enabled": true,
+        "is_remote_lock_enabled": true,
+        "is_remote_sendpoi_enabled": true,
+        "is_remote_set_ac_limit_enabled": false,
+        "is_remote_set_target_soc_enabled": false,
+        "is_remote_unlock_enabled": true,
+        "is_vehicle_active": false,
+        "is_vehicle_tracking_enabled": true,
+        "lsc_type": "ACTIVATED",
+        "mileage": [
+            82283,
+            "km"
+        ],
+        "name": "CONNECTED",
+        "timestamp": "2025-09-29T09:42:52+00:00",
+        "vin": "WBY1Z21020V791850"
+    }
+]
+VIN: WBY1Z21020V791850
+Mileage: 82283 km
+Vehicle data:
+[
+    {
+        "data": {
+            "attributes": {
+                "brand": "BMW",
+                "model": "CONNECTED",
+                "appVehicleType": "CONNECTED",
+                "driveTrain": "UNKNOWN"
+            },
+            "capabilities": {
+                "remoteServices": {
+                    "departureTimerControl": {
+                        "id": "departureTimerControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "inCarCamera": {
+                        "id": "inCarCamera",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "inCarCameraDwa": {
+                        "id": "inCarCameraDwa",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "remote360": {
+                        "id": "remote360",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "surroundViewRecorder": {
+                        "id": "surroundViewRecorder",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "windowControl": {
+                        "id": "windowControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "centralLockControl": {
+                        "id": "centralLockControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "batteryPreconditioningControl": {
+                        "id": "batteryPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorLock": {
+                        "id": "doorLock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorUnlock": {
+                        "id": "doorUnlock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "hornBlow": {
+                        "id": "hornBlow",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "lightFlash": {
+                        "id": "lightFlash",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "telematicsWakeup": {
+                        "id": "telematicsWakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "wakeup": {
+                        "id": "wakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "interiorPreconditioningControl": {
+                        "id": "interiorPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    }
+                },
+                "a4aType": "NOT_SUPPORTED",
+                "climateNow": true,
+                "isClimateTimerWeeklyActive": false,
+                "climateFunction": "AIR_CONDITIONING",
+                "horn": true,
+                "isBmwChargingSupported": true,
+                "isCarSharingSupported": false,
+                "isChargeNowForBusinessSupported": false,
+                "isChargingHistorySupported": true,
+                "isLocationBasedChargingSettingsSupported": false,
+                "isChargingHospitalityEnabled": true,
+                "isChargingLoudnessEnabled": true,
+                "isChargingPlanSupported": true,
+                "isChargingPowerLimitEnabled": true,
+                "isChargingSettingsEnabled": true,
+                "isBatteryPreconditioningSupported": true,
+                "isChargingTargetSocEnabled": true,
+                "isCustomerEsimSupported": false,
+                "isDataPrivacyEnabled": false,
+                "isDCSContractManagementSupported": true,
+                "isEasyChargeEnabled": false,
+                "isMiniChargingSupported": false,
+                "isEvGoChargingSupported": false,
+                "isRemoteHistoryDeletionSupported": false,
+                "isRemoteEngineStartSupported": false,
+                "isRemoteServicesActivationRequired": false,
+                "isRemoteServicesBookingRequired": false,
+                "isScanAndChargeSupported": false,
+                "lastStateCallState": "ACTIVATED",
+                "lights": true,
+                "lock": true,
+                "remoteSoftwareUpgrade": true,
+                "sendPoi": true,
+                "unlock": true,
+                "vehicleFinder": true,
+                "vehicleStateSource": "LAST_STATE_CALL",
+                "isRemoteHistorySupported": true,
+                "isWifiHotspotServiceSupported": false,
+                "isNonLscFeatureEnabled": false,
+                "isSustainabilitySupported": true,
+                "isSustainabilityAccumulatedViewEnabled": true,
+                "specialThemeSupport": [],
+                "isRemoteParkingSupported": false,
+                "isRemoteParkingEes25Active": false,
+                "remoteChargingCommands": {
+                    "chargingControl": [
+                        "START",
+                        "STOP"
+                    ],
+                    "plugControl": [
+                        "UNLOCK_PLUG"
+                    ],
+                    "flapControl": [
+                        "COUPLE_FLAP",
+                        "DECOUPLE_FLAP"
+                    ]
+                },
+                "digitalKey": {
+                    "state": "ACTIVATED",
+                    "bookedServicePackage": "SMACC_1_5",
+                    "readerGraphics": "000200000000",
+                    "vehicleSoftwareUpgradeRequired": false,
+                    "isDigitalKeyFirstSupported": false
+                },
+                "isPersonalPictureUploadSupported": false,
+                "personalPictureUpload": {
+                    "state": "NOT_AVAILABLE",
+                    "aspectRatio": "2:1"
+                },
+                "isPlugAndChargeSupported": false,
+                "isOptimizedChargingSupported": false,
+                "alarmSystem": false,
+                "isThirdPartyAppStoreSupported": false,
+                "thirdPartyAppStore": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "thirdPartyAppStoreCn": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "locationBasedCommerceFeatures": {
+                    "parking": true,
+                    "fueling": false,
+                    "reservations": false
+                },
+                "isLearningNavigationSupported": true
+            },
+            "state": {
+                "isLeftSteering": true,
+                "lastFetched": "2025-09-29T09:42:52.124Z",
+                "lastUpdatedAt": "2025-09-29T07:07:37Z",
+                "isLscSupported": true,
+                "range": 309,
+                "doorsState": {
+                    "combinedSecurityState": "SECURED",
+                    "leftFront": "CLOSED",
+                    "leftRear": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "rightRear": "CLOSED",
+                    "combinedState": "CLOSED",
+                    "hood": "CLOSED",
+                    "trunk": "CLOSED"
+                },
+                "windowsState": {
+                    "leftFront": "CLOSED",
+                    "leftRear": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "rightRear": "CLOSED",
+                    "combinedState": "CLOSED"
+                },
+                "roofState": {
+                    "roofState": "CLOSED",
+                    "roofStateType": "SUN_ROOF"
+                },
+                "tireState": {
+                    "frontLeft": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 240,
+                            "targetPressure": 240
+                        }
+                    },
+                    "frontRight": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 220,
+                            "targetPressure": 240
+                        }
+                    },
+                    "rearLeft": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 260,
+                            "targetPressure": 270
+                        }
+                    },
+                    "rearRight": {
+                        "details": {
+                            "identificationInProgress": false
+                        },
+                        "status": {
+                            "currentPressure": 250,
+                            "targetPressure": 270
+                        }
+                    }
+                },
+                "location": {
+                    "coordinates": {
+                        "latitude": 60.28076,
+                        "longitude": 24.751428611111113
+                    },
+                    "address": {
+                        "formatted": "Purolehto 15, 02920 Espoo"
+                    },
+                    "heading": 274
+                },
+                "currentMileage": 114282,
+                "climateControlState": {
+                    "activity": "INACTIVE"
+                },
+                "climateTimers": [
+                    {
+                        "isWeeklyTimer": false,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "departurePlan": {},
+                "requiredServices": [],
+                "checkControlMessages": [
+                    {
+                        "id": 1,
+                        "type": "CONDUCTIVE_CHARGING",
+                        "severity": "HIGH",
+                        "description": "Check power supply and plug in again.",
+                        "name": "Charging interrupted",
+                        "timestamp": "2025-09-28T18:32:08.02Z"
+                    },
+                    {
+                        "type": "TIRE_PRESSURE",
+                        "severity": "LOW"
+                    }
+                ],
+                "chargingProfile": {
+                    "chargingControlType": "WEEKLY_PLANNER",
+                    "reductionOfChargeCurrent": {
+                        "start": {
+                            "hour": 23,
+                            "minute": 5
+                        },
+                        "end": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    "chargingMode": "IMMEDIATE_CHARGING",
+                    "chargingPreference": "NO_PRESELECTION",
+                    "departureTimes": [
+                        {
+                            "id": 1,
+                            "timeStamp": {
+                                "hour": 7,
+                                "minute": 25
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY",
+                                "TUESDAY",
+                                "WEDNESDAY",
+                                "THURSDAY",
+                                "FRIDAY"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "timeStamp": {
+                                "hour": 0,
+                                "minute": 0
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": []
+                        },
+                        {
+                            "id": 3,
+                            "timeStamp": {
+                                "hour": 0,
+                                "minute": 0
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": []
+                        },
+                        {
+                            "id": 4,
+                            "timeStamp": {
+                                "hour": 7,
+                                "minute": 0
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": []
+                        }
+                    ],
+                    "climatisationOn": false,
+                    "chargingSettings": {
+                        "targetSoc": 85,
+                        "acCurrentLimit": 12,
+                        "idcc": "UNLIMITED_LOUD",
+                        "hospitality": "HOSP_INACTIVE",
+                        "isAcCurrentLimitActive": true
+                    }
+                },
+                "electricChargingState": {
+                    "chargingLevelPercent": 81,
+                    "range": 309,
+                    "isChargerConnected": true,
+                    "chargingStatus": "ERROR",
+                    "chargingTarget": 85,
+                    "battery": {
+                        "batteryPreconditionState": "NOT_AVAILABLE",
+                        "batteryPreconditionErrorState": "PLUGGED_IN"
+                    }
+                },
+                "combustionFuelLevel": {
+                    "range": 309
+                },
+                "driverPreferences": {
+                    "lscPrivacyMode": "OFF"
+                },
+                "isDeepSleepModeActive": false,
+                "securityOverviewMode": "ARMED",
+                "vehicleSoftwareVersion": {
+                    "puStep": {
+                        "month": 7,
+                        "year": 24
+                    },
+                    "iStep": {
+                        "seriesCluster": "S18A",
+                        "year": 24,
+                        "month": 7,
+                        "iStep": 530
+                    }
+                },
+                "pwf": "PARKING_BN_OK",
+                "loggedInProfile": {
+                    "driverFront": {
+                        "gcid": "667898b1-6ee6-49dc-beab-8b1f2fa0a659"
+                    },
+                    "passengerFront": {}
+                },
+                "isRemoteEngineStartDisclaimer": false
+            },
+            "charging_settings": {},
+            "vin": "WBY31AW090FP15359",
+            "fetched_at": "2025-09-29T09:42:51+00:00",
+            "features": [
+                {
+                    "id": "DIGITAL_KEY",
+                    "isSupported": true,
+                    "isActive": true,
+                    "subFeatures": []
+                },
+                {
+                    "id": "TRAFFIC_INFORMATION",
+                    "isSupported": true,
+                    "isActive": true
+                },
+                {
+                    "id": "WEBSOCKET_CONNECTION",
+                    "isSupported": false
+                },
+                {
+                    "id": "NACS_CHARGING_CONNECTOR",
+                    "isSupported": false
+                },
+                {
+                    "id": "ALARM_SYSTEM",
+                    "isSupported": false,
+                    "subFeatures": [
+                        {
+                            "id": "ALARM_SYSTEM_PARTIAL_ARMING_ON_LSC",
+                            "isSupported": false
+                        }
+                    ]
+                },
+                {
+                    "id": "INTERIOR_PRECONDITIONING",
+                    "isSupported": false,
+                    "isActive": false,
+                    "subFeatures": []
+                }
+            ]
+        },
+        "fuel_and_battery": {
+            "remaining_range_fuel": [
+                null,
+                null
+            ],
+            "remaining_range_electric": [
+                null,
+                null
+            ],
+            "remaining_range_total": [
+                null,
+                null
+            ],
+            "remaining_fuel": [
+                null,
+                null
+            ],
+            "remaining_fuel_percent": null,
+            "remaining_battery_percent": null,
+            "charging_status": null,
+            "charging_start_time": null,
+            "charging_end_time": null,
+            "is_charger_connected": false,
+            "charging_target": null
+        },
+        "vehicle_location": {
+            "location": {
+                "latitude": 60.28076,
+                "longitude": 24.751428611111113
+            },
+            "heading": 274,
+            "vehicle_update_timestamp": "2025-09-29T09:42:52+00:00",
+            "account_region": "row",
+            "remote_service_position": null
+        },
+        "doors_and_windows": {
+            "door_lock_state": "SECURED",
+            "lids": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "leftRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "hood",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "trunk",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "sunRoof",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "windows": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "leftRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "all_lids_closed": true,
+            "all_windows_closed": true,
+            "open_lids": [],
+            "open_windows": []
+        },
+        "condition_based_services": {
+            "messages": [],
+            "is_service_required": false,
+            "next_service_by_distance": null,
+            "next_service_by_time": null
+        },
+        "headunit": {
+            "idrive_version": "",
+            "headunit_type": "",
+            "software_version": ""
+        },
+        "check_control_messages": {
+            "messages": [
+                {
+                    "description_short": "CONDUCTIVE_CHARGING",
+                    "description_long": null,
+                    "state": "HIGH"
+                },
+                {
+                    "description_short": "TIRE_PRESSURE",
+                    "description_long": null,
+                    "state": "LOW"
+                }
+            ],
+            "has_check_control_messages": true,
+            "urgent_check_control_messages": "CONDUCTIVE_CHARGING"
+        },
+        "climate": {
+            "activity": "INACTIVE",
+            "activity_end_time": null,
+            "is_climate_on": false
+        },
+        "charging_profile": {
+            "is_pre_entry_climatization_enabled": false,
+            "timer_type": "WEEKLY_PLANNER",
+            "departure_times": [
+                {
+                    "_timer_dict": {
+                        "id": 1,
+                        "timeStamp": {
+                            "hour": 7,
+                            "minute": 25
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY"
+                        ]
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "07:25:00",
+                    "timer_id": 1,
+                    "weekdays": [
+                        "MONDAY",
+                        "TUESDAY",
+                        "WEDNESDAY",
+                        "THURSDAY",
+                        "FRIDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 2,
+                        "timeStamp": {
+                            "hour": 0,
+                            "minute": 0
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": []
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "00:00:00",
+                    "timer_id": 2,
+                    "weekdays": []
+                },
+                {
+                    "_timer_dict": {
+                        "id": 3,
+                        "timeStamp": {
+                            "hour": 0,
+                            "minute": 0
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": []
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "00:00:00",
+                    "timer_id": 3,
+                    "weekdays": []
+                },
+                {
+                    "_timer_dict": {
+                        "id": 4,
+                        "timeStamp": {
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": []
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "07:00:00",
+                    "timer_id": 4,
+                    "weekdays": []
+                }
+            ],
+            "preferred_charging_window": {
+                "_window_dict": {
+                    "start": {
+                        "hour": 23,
+                        "minute": 5
+                    },
+                    "end": {
+                        "hour": 7,
+                        "minute": 0
+                    }
+                },
+                "end_time": "07:00:00",
+                "start_time": "23:05:00"
+            },
+            "charging_preferences": "NO_PRESELECTION",
+            "charging_mode": "IMMEDIATE_CHARGING",
+            "ac_current_limit": 12,
+            "ac_available_limits": null,
+            "charging_preferences_service_pack": null
+        },
+        "tires": {
+            "front_left": {
+                "current_pressure": 240,
+                "target_pressure": 240,
+                "season": null,
+                "manufacturing_week": null
+            },
+            "front_right": {
+                "current_pressure": 220,
+                "target_pressure": 240,
+                "season": null,
+                "manufacturing_week": null
+            },
+            "rear_left": {
+                "current_pressure": 260,
+                "target_pressure": 270,
+                "season": null,
+                "manufacturing_week": null
+            },
+            "rear_right": {
+                "current_pressure": 250,
+                "target_pressure": 270,
+                "season": null,
+                "manufacturing_week": null
+            }
+        },
+        "available_attributes": [
+            "gps_position",
+            "vin",
+            "remaining_range_total",
+            "mileage",
+            "condition_based_services",
+            "check_control_messages",
+            "door_lock_state",
+            "timestamp",
+            "lids",
+            "windows"
+        ],
+        "brand": "bmw",
+        "drive_train": "UNKNOWN",
+        "drive_train_attributes": [
+            "remaining_range_total",
+            "mileage"
+        ],
+        "has_combustion_drivetrain": false,
+        "has_electric_drivetrain": false,
+        "is_charging_plan_supported": true,
+        "is_charging_settings_supported": true,
+        "is_lsc_enabled": true,
+        "is_remote_charge_start_enabled": true,
+        "is_remote_charge_stop_enabled": true,
+        "is_remote_climate_start_enabled": true,
+        "is_remote_climate_stop_enabled": true,
+        "is_remote_horn_enabled": true,
+        "is_remote_lights_enabled": true,
+        "is_remote_lock_enabled": true,
+        "is_remote_sendpoi_enabled": true,
+        "is_remote_set_ac_limit_enabled": true,
+        "is_remote_set_target_soc_enabled": true,
+        "is_remote_unlock_enabled": true,
+        "is_vehicle_active": false,
+        "is_vehicle_tracking_enabled": true,
+        "lsc_type": "ACTIVATED",
+        "mileage": [
+            114282,
+            "km"
+        ],
+        "name": "CONNECTED",
+        "timestamp": "2025-09-29T09:42:52+00:00",
+        "vin": "WBY31AW090FP15359"
+    },
+    {
+        "data": {
+            "attributes": {
+                "brand": "BMW",
+                "model": "CONNECTED",
+                "appVehicleType": "CONNECTED",
+                "driveTrain": "UNKNOWN"
+            },
+            "capabilities": {
+                "remoteServices": {
+                    "departureTimerControl": {
+                        "id": "departureTimerControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "inCarCamera": {
+                        "id": "inCarCamera",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "inCarCameraDwa": {
+                        "id": "inCarCameraDwa",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "remote360": {
+                        "id": "remote360",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "surroundViewRecorder": {
+                        "id": "surroundViewRecorder",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_360_V4"
+                    },
+                    "windowControl": {
+                        "id": "windowControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "centralLockControl": {
+                        "id": "centralLockControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "batteryPreconditioningControl": {
+                        "id": "batteryPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorLock": {
+                        "id": "doorLock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "doorUnlock": {
+                        "id": "doorUnlock",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "hornBlow": {
+                        "id": "hornBlow",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "lightFlash": {
+                        "id": "lightFlash",
+                        "state": "ACTIVATED",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "telematicsWakeup": {
+                        "id": "telematicsWakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "wakeup": {
+                        "id": "wakeup",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    },
+                    "interiorPreconditioningControl": {
+                        "id": "interiorPreconditioningControl",
+                        "state": "NOT_AVAILABLE",
+                        "executionApi": "RS_API_V6"
+                    }
+                },
+                "a4aType": "USB_ONLY",
+                "climateNow": true,
+                "isClimateTimerWeeklyActive": false,
+                "climateFunction": "AIR_CONDITIONING",
+                "horn": true,
+                "isBmwChargingSupported": true,
+                "isCarSharingSupported": false,
+                "isChargeNowForBusinessSupported": false,
+                "isChargingHistorySupported": true,
+                "isLocationBasedChargingSettingsSupported": false,
+                "isChargingHospitalityEnabled": false,
+                "isChargingLoudnessEnabled": false,
+                "isChargingPlanSupported": true,
+                "isChargingPowerLimitEnabled": false,
+                "isChargingSettingsEnabled": false,
+                "isBatteryPreconditioningSupported": false,
+                "isChargingTargetSocEnabled": false,
+                "isCustomerEsimSupported": false,
+                "isDataPrivacyEnabled": false,
+                "isDCSContractManagementSupported": true,
+                "isEasyChargeEnabled": false,
+                "isMiniChargingSupported": false,
+                "isEvGoChargingSupported": false,
+                "isRemoteHistoryDeletionSupported": false,
+                "isRemoteEngineStartSupported": false,
+                "isRemoteServicesActivationRequired": false,
+                "isRemoteServicesBookingRequired": false,
+                "isScanAndChargeSupported": false,
+                "lastStateCallState": "ACTIVATED",
+                "lights": true,
+                "lock": true,
+                "sendPoi": true,
+                "unlock": true,
+                "vehicleFinder": true,
+                "vehicleStateSource": "LAST_STATE_CALL",
+                "isRemoteHistorySupported": true,
+                "isWifiHotspotServiceSupported": false,
+                "isNonLscFeatureEnabled": false,
+                "isSustainabilitySupported": false,
+                "isSustainabilityAccumulatedViewEnabled": false,
+                "specialThemeSupport": [],
+                "isRemoteParkingSupported": false,
+                "isRemoteParkingEes25Active": false,
+                "remoteChargingCommands": {},
+                "digitalKey": {
+                    "state": "NOT_AVAILABLE",
+                    "bookedServicePackage": "NONE",
+                    "vehicleSoftwareUpgradeRequired": false,
+                    "isDigitalKeyFirstSupported": false
+                },
+                "isPersonalPictureUploadSupported": false,
+                "personalPictureUpload": {
+                    "state": "NOT_AVAILABLE",
+                    "aspectRatio": "1:1"
+                },
+                "isPlugAndChargeSupported": false,
+                "isOptimizedChargingSupported": false,
+                "alarmSystem": false,
+                "isThirdPartyAppStoreSupported": false,
+                "thirdPartyAppStore": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "thirdPartyAppStoreCn": {
+                    "state": "NOT_AVAILABLE"
+                },
+                "locationBasedCommerceFeatures": {
+                    "parking": false,
+                    "fueling": false,
+                    "reservations": false
+                },
+                "isLearningNavigationSupported": false
+            },
+            "state": {
+                "isLeftSteering": true,
+                "lastFetched": "2025-09-29T09:42:52.772Z",
+                "lastUpdatedAt": "2025-09-29T05:24:27Z",
+                "isLscSupported": true,
+                "range": 101,
+                "doorsState": {
+                    "combinedSecurityState": "SECURED",
+                    "leftFront": "CLOSED",
+                    "leftRear": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "rightRear": "CLOSED",
+                    "combinedState": "CLOSED",
+                    "hood": "CLOSED",
+                    "trunk": "CLOSED"
+                },
+                "windowsState": {
+                    "leftFront": "CLOSED",
+                    "rightFront": "CLOSED",
+                    "combinedState": "CLOSED"
+                },
+                "roofState": {
+                    "roofState": "CLOSED",
+                    "roofStateType": "SUN_ROOF"
+                },
+                "location": {
+                    "coordinates": {
+                        "latitude": 60.22173138888889,
+                        "longitude": 24.68443
+                    },
+                    "address": {
+                        "formatted": "Karvasm\u00e4entie 4, 02740 Espoo"
+                    },
+                    "heading": 104
+                },
+                "currentMileage": 82283,
+                "climateTimers": [
+                    {
+                        "isWeeklyTimer": false,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "isWeeklyTimer": true,
+                        "timerAction": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ],
+                        "departureTime": {
+                            "hour": 7,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "departurePlan": {},
+                "requiredServices": [],
+                "checkControlMessages": [],
+                "chargingProfile": {
+                    "chargingControlType": "WEEKLY_PLANNER",
+                    "reductionOfChargeCurrent": {
+                        "start": {
+                            "hour": 4,
+                            "minute": 0
+                        },
+                        "end": {
+                            "hour": 12,
+                            "minute": 0
+                        }
+                    },
+                    "chargingMode": "IMMEDIATE_CHARGING",
+                    "chargingPreference": "CHARGING_WINDOW",
+                    "departureTimes": [
+                        {
+                            "id": 1,
+                            "timeStamp": {
+                                "hour": 21,
+                                "minute": 30
+                            },
+                            "action": "ACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY",
+                                "TUESDAY",
+                                "WEDNESDAY",
+                                "THURSDAY",
+                                "FRIDAY",
+                                "SATURDAY",
+                                "SUNDAY"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "timeStamp": {
+                                "hour": 8,
+                                "minute": 35
+                            },
+                            "action": "ACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY",
+                                "TUESDAY",
+                                "WEDNESDAY",
+                                "THURSDAY",
+                                "FRIDAY"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "timeStamp": {
+                                "hour": 9,
+                                "minute": 45
+                            },
+                            "action": "ACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "timeStamp": {
+                                "hour": 8,
+                                "minute": 35
+                            },
+                            "action": "DEACTIVATE",
+                            "timerWeekDays": [
+                                "MONDAY"
+                            ]
+                        }
+                    ],
+                    "climatisationOn": false,
+                    "chargingSettings": {
+                        "targetSoc": 100,
+                        "idcc": "NO_ACTION",
+                        "hospitality": "NO_ACTION"
+                    }
+                },
+                "electricChargingState": {
+                    "chargingLevelPercent": 86,
+                    "range": 101,
+                    "isChargerConnected": false,
+                    "chargingStatus": "INVALID",
+                    "chargingTarget": 100
+                },
+                "combustionFuelLevel": {},
+                "driverPreferences": {
+                    "lscPrivacyMode": "OFF"
+                },
+                "securityOverviewMode": null,
+                "vehicleSoftwareVersion": {
+                    "puStep": {
+                        "month": 3,
+                        "year": 21
+                    },
+                    "iStep": {
+                        "seriesCluster": "I001",
+                        "year": 21,
+                        "month": 3,
+                        "iStep": 530
+                    }
+                },
+                "loggedInProfile": {
+                    "driverFront": {},
+                    "passengerFront": {}
+                }
+            },
+            "charging_settings": {},
+            "vin": "WBY1Z21020V791850",
+            "fetched_at": "2025-09-29T09:42:52+00:00",
+            "features": [
+                {
+                    "id": "DIGITAL_KEY",
+                    "isSupported": false,
+                    "isActive": false,
+                    "subFeatures": []
+                },
+                {
+                    "id": "TRAFFIC_INFORMATION",
+                    "isSupported": false
+                },
+                {
+                    "id": "WEBSOCKET_CONNECTION",
+                    "isSupported": false
+                },
+                {
+                    "id": "NACS_CHARGING_CONNECTOR",
+                    "isSupported": false
+                },
+                {
+                    "id": "ALARM_SYSTEM",
+                    "isSupported": false,
+                    "subFeatures": [
+                        {
+                            "id": "ALARM_SYSTEM_PARTIAL_ARMING_ON_LSC",
+                            "isSupported": false
+                        }
+                    ]
+                },
+                {
+                    "id": "INTERIOR_PRECONDITIONING",
+                    "isSupported": false,
+                    "isActive": false,
+                    "subFeatures": []
+                }
+            ]
+        },
+        "fuel_and_battery": {
+            "remaining_range_fuel": [
+                null,
+                null
+            ],
+            "remaining_range_electric": [
+                null,
+                null
+            ],
+            "remaining_range_total": [
+                null,
+                null
+            ],
+            "remaining_fuel": [
+                null,
+                null
+            ],
+            "remaining_fuel_percent": null,
+            "remaining_battery_percent": null,
+            "charging_status": null,
+            "charging_start_time": null,
+            "charging_end_time": null,
+            "is_charger_connected": false,
+            "charging_target": null
+        },
+        "vehicle_location": {
+            "location": {
+                "latitude": 60.22173138888889,
+                "longitude": 24.68443
+            },
+            "heading": 104,
+            "vehicle_update_timestamp": "2025-09-29T09:42:52+00:00",
+            "account_region": "row",
+            "remote_service_position": null
+        },
+        "doors_and_windows": {
+            "door_lock_state": "SECURED",
+            "lids": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "leftRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightRear",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "hood",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "trunk",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "sunRoof",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "windows": [
+                {
+                    "name": "leftFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                },
+                {
+                    "name": "rightFront",
+                    "state": "CLOSED",
+                    "is_closed": true
+                }
+            ],
+            "all_lids_closed": true,
+            "all_windows_closed": true,
+            "open_lids": [],
+            "open_windows": []
+        },
+        "condition_based_services": {
+            "messages": [],
+            "is_service_required": false,
+            "next_service_by_distance": null,
+            "next_service_by_time": null
+        },
+        "headunit": {
+            "idrive_version": "",
+            "headunit_type": "",
+            "software_version": ""
+        },
+        "check_control_messages": {
+            "messages": [],
+            "has_check_control_messages": false,
+            "urgent_check_control_messages": null
+        },
+        "climate": {
+            "activity": "UNKNOWN",
+            "activity_end_time": null,
+            "is_climate_on": false
+        },
+        "charging_profile": {
+            "is_pre_entry_climatization_enabled": false,
+            "timer_type": "WEEKLY_PLANNER",
+            "departure_times": [
+                {
+                    "_timer_dict": {
+                        "id": 1,
+                        "timeStamp": {
+                            "hour": 21,
+                            "minute": 30
+                        },
+                        "action": "ACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ]
+                    },
+                    "action": "ACTIVATE",
+                    "start_time": "21:30:00",
+                    "timer_id": 1,
+                    "weekdays": [
+                        "MONDAY",
+                        "TUESDAY",
+                        "WEDNESDAY",
+                        "THURSDAY",
+                        "FRIDAY",
+                        "SATURDAY",
+                        "SUNDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 2,
+                        "timeStamp": {
+                            "hour": 8,
+                            "minute": 35
+                        },
+                        "action": "ACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY"
+                        ]
+                    },
+                    "action": "ACTIVATE",
+                    "start_time": "08:35:00",
+                    "timer_id": 2,
+                    "weekdays": [
+                        "MONDAY",
+                        "TUESDAY",
+                        "WEDNESDAY",
+                        "THURSDAY",
+                        "FRIDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 3,
+                        "timeStamp": {
+                            "hour": 9,
+                            "minute": 45
+                        },
+                        "action": "ACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ]
+                    },
+                    "action": "ACTIVATE",
+                    "start_time": "09:45:00",
+                    "timer_id": 3,
+                    "weekdays": [
+                        "MONDAY"
+                    ]
+                },
+                {
+                    "_timer_dict": {
+                        "id": 4,
+                        "timeStamp": {
+                            "hour": 8,
+                            "minute": 35
+                        },
+                        "action": "DEACTIVATE",
+                        "timerWeekDays": [
+                            "MONDAY"
+                        ]
+                    },
+                    "action": "DEACTIVATE",
+                    "start_time": "08:35:00",
+                    "timer_id": 4,
+                    "weekdays": [
+                        "MONDAY"
+                    ]
+                }
+            ],
+            "preferred_charging_window": {
+                "_window_dict": {
+                    "start": {
+                        "hour": 4,
+                        "minute": 0
+                    },
+                    "end": {
+                        "hour": 12,
+                        "minute": 0
+                    }
+                },
+                "end_time": "12:00:00",
+                "start_time": "04:00:00"
+            },
+            "charging_preferences": "CHARGING_WINDOW",
+            "charging_mode": "IMMEDIATE_CHARGING",
+            "ac_current_limit": null,
+            "ac_available_limits": null,
+            "charging_preferences_service_pack": null
+        },
+        "tires": null,
+        "available_attributes": [
+            "gps_position",
+            "vin",
+            "remaining_range_total",
+            "mileage",
+            "condition_based_services",
+            "check_control_messages",
+            "door_lock_state",
+            "timestamp",
+            "lids",
+            "windows"
+        ],
+        "brand": "bmw",
+        "drive_train": "UNKNOWN",
+        "drive_train_attributes": [
+            "remaining_range_total",
+            "mileage"
+        ],
+        "has_combustion_drivetrain": false,
+        "has_electric_drivetrain": false,
+        "is_charging_plan_supported": true,
+        "is_charging_settings_supported": false,
+        "is_lsc_enabled": true,
+        "is_remote_charge_start_enabled": false,
+        "is_remote_charge_stop_enabled": false,
+        "is_remote_climate_start_enabled": true,
+        "is_remote_climate_stop_enabled": false,
+        "is_remote_horn_enabled": true,
+        "is_remote_lights_enabled": true,
+        "is_remote_lock_enabled": true,
+        "is_remote_sendpoi_enabled": true,
+        "is_remote_set_ac_limit_enabled": false,
+        "is_remote_set_target_soc_enabled": false,
+        "is_remote_unlock_enabled": true,
+        "is_vehicle_active": false,
+        "is_vehicle_tracking_enabled": true,
+        "lsc_type": "ACTIVATED",
+        "mileage": [
+            82283,
+            "km"
+        ],
+        "name": "CONNECTED",
+        "timestamp": "2025-09-29T09:42:52+00:00",
+        "vin": "WBY1Z21020V791850"
+    }
+]
